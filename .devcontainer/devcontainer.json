@@ -10,7 +10,6 @@
 		"vscode": {
 			"extensions": [
 				"ms-dotnettools.csharp",
-				"dotnet.install",
 				"ms-dotnettools.csdevkit",
 				"ms-azuretools.vscode-docker"
 			],
