@@ -3,7 +3,19 @@
 {
 	"name": "Debian",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:bookworm"
+	"image": "mcr.microsoft.com/devcontainers/base:bookworm",
+
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dotnettools.csharp",
+				"dotnet.install",
+				"ms-dotnettools.csdevkit"
+			],
+			"postCreateCommand": "/bin/bash -c 'dotnet-install.sh'"
+		}
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -13,6 +25,9 @@
 
 	// Configure tool-specific properties.
 	// "customizations": {},
+	
+	
+
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
