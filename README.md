@@ -9,6 +9,13 @@ Use ` nano --version ` to see the version of nano installed
 
 These two extentions have also been added
 
+This codespace has been built from a Microsoft image that has dotnet & powershell pre installed
+
+Pleas find below a link to the image
+
+https://hub.docker.com/_/microsoft-dotnet-aspnet/
+
+
 'ms-dotnettools.csdevkit'
 
 
