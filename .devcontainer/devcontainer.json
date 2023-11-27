@@ -3,7 +3,7 @@
 {
 	"name": "Debian",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:bookworm",
+	"dockerFile": "Dockerfile",
 
 
 	"customizations": {
@@ -11,9 +11,10 @@
 			"extensions": [
 				"ms-dotnettools.csharp",
 				"dotnet.install",
-				"ms-dotnettools.csdevkit"
+				"ms-dotnettools.csdevkit",
+				"ms-azuretools.vscode-docker"
 			],
-			"postCreateCommand": "/bin/bash -c 'dotnet-install.sh'"
+		
 		}
 	}
 
