@@ -19,7 +19,9 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         curl \
         git \
+        nano \
         wget \
+        vim \
     && rm -rf /var/lib/apt/lists/*
 
 # Install nano text editor
