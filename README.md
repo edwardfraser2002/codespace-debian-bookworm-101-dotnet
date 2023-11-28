@@ -38,7 +38,7 @@ Use ` git --version ` to see the version of git installed <br>
 
 Use ` nano --version ` to see the version of nano installed <br>
 
-## These two extentions have also been added <br>
+## Extentions added to auto install in vscode<br>
 
 #### 'ms-dotnettools.csdevkit' <br>
 #### 'ms-vscode.PowerShell' <br>
