@@ -54,6 +54,8 @@ Use ` nano --version ` to see the version of nano installed
 
 #### `ms-vscode.PowerShell` - Provides things like PowerShell intellisense.
 
+#### `GitHub.vscode-github-actions` - Provides things like GitHub Actions intellisense.
+
 ### Settings added to auto install in vscode include: 
 
 #### `"terminal.integrated.defaultProfile.linux": "pwsh"` - Sets the default CLI to PowerShell

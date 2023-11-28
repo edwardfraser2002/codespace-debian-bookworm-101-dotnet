@@ -9,7 +9,8 @@
 			"extensions": [
 				"ms-vscode.PowerShell",
 				"ms-azuretools.vscode-docker",
-				"ms-dotnettools.csdevkit"
+				"ms-dotnettools.csdevkit",
+				"GitHub.vscode-github-actions"
 			],
 			"settings": {
 				"terminal.integrated.defaultProfile.linux": "pwsh"
