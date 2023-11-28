@@ -2,6 +2,8 @@
 
 ## (codspace-debian-bookworm-10-dotnet)
 
+### Codespace build time 65 seconds
+
 ### Author: Ed Fraser - A basic codspace based on debian for developing C# dotnet projects. PowerShell and other essential extentions have also been included
 
 ### Codespace base image info
