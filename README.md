@@ -48,8 +48,12 @@ Use ` nano --version ` to see the version of nano installed
 
 ### Extentions added to auto install in vscode include: 
 
-#### `ms-azuretools.vscode-docker` - Provides, for example, Dockerfile intellisense.
+#### `ms-azuretools.vscode-docker` - Provides things like Dockerfile intellisense.
 
-#### `ms-dotnettools.csdevkit`
+#### `ms-dotnettools.csdevkit` - Is an extension pack for a number of other extensions
 
-#### `ms-vscode.PowerShell`
+#### `ms-vscode.PowerShell` - Provides things like PowerShell intellisense.
+
+### Settings added to auto install in vscode include: 
+
+#### `"terminal.integrated.defaultProfile.linux": "pwsh"` - Sets the default CLI to PowerShell
