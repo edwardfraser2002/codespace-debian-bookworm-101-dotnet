@@ -47,12 +47,3 @@ RUN powershell_version=7.3.10 \
     && chmod 755 /usr/share/powershell/pwsh \
     # To reduce image size, remove the copy nupkg that nuget keeps.
     && find /usr/share/powershell -print | grep -i '.*[.]nupkg$' | xargs rm
-    && echo "$powershell_sha512  PowerShell.Linux.x64.$powershell_version.nupkg" | sha512sum -c - \
-    && mkdir -p /usr/share/powershell \
-    && dotnet tool install --add-source / --tool-path /usr/share/powershell --version $powershell_version PowerShell.Linux.x64 \
-    && dotnet nuget locals all --clear \
-    && rm PowerShell.Linux.x64.$powershell_version.nupkg \
-    && ln -s /usr/share/powershell/pwsh /usr/bin/pwsh \
-    && chmod 755 /usr/share/powershell/pwsh \
-    # To reduce image size, remove the copy nupkg that nuget keeps.
-    && find /usr/share/powershell -print | grep -i '.*[.]nupkg$' | xargs rm
