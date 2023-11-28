@@ -4,14 +4,14 @@
 	"name": "Debian",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"dockerFile": "Dockerfile",
-	"customizations": {
+	/*"customizations": {
 		"vscode": {
 			"extensions": [
 				"ms-dotnettools.csdevkit"
 			]
 		}
 	}
-
+	*/
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
