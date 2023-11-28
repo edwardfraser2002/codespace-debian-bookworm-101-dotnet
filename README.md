@@ -1,5 +1,14 @@
 # codspace-debian-bookworm-10-dotnet
-Author: Ed Fraser - A basic codspace based on debian for C# dotnet projects. Also Includes PowerShell and other essential extentions
+
+Author: Ed Fraser - A basic codspace based on debian for developing C# dotnet projects. PowerShell and other essential extentions have also been included
+
+Please find below a link to the image repository description 
+
+https://hub.docker.com/_/microsoft-dotnet-aspnet/
+
+Please find below the link to the original dockerfile configuration file
+
+https://github.com/dotnet/dotnet-docker/blob/0f9bcba898466d5c00ac0fa57fdc2d40a9f29491/src/sdk/8.0/bookworm-slim/amd64/Dockerfile
 
 
 
@@ -13,13 +22,11 @@ These two extentions have also been added
 
 This codespace has been built from a Microsoft image that has dotnet & powershell pre installed
 
-Pleas find below a link to the image
 
-https://hub.docker.com/_/microsoft-dotnet-aspnet/
 
 
 'ms-dotnettools.csdevkit'
 
 
 
-				"ms-vscode.PowerShell"
+"ms-vscode.PowerShell"

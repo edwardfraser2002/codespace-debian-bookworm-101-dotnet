@@ -4,6 +4,13 @@
 	"name": "Debian",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	},
 	/*"customizations": {
 		"vscode": {
 			"extensions": [
