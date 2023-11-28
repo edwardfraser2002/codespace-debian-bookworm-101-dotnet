@@ -23,7 +23,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 # Install nano text editor
-RUN apt-get install nano -y
+# RUN apt-get install nano -y
 
 
 # Install .NET SDK
