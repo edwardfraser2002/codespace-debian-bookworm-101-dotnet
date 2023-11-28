@@ -1,5 +1,5 @@
-ARG REPO=mcr.microsoft.com/dotnet/sdk
-FROM $REPO:8.0
+ARG REPO=mcr.microsoft.com/dotnet/aspnet
+FROM $REPO:8.0.0-bookworm-slim-amd64
 
 ENV \
     # Do not generate certificate
