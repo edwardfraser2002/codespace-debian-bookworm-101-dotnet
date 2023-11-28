@@ -58,7 +58,7 @@ Use ` nano --version ` to see the version of nano installed
 
 ### Settings added to auto install in vscode include: 
 
-#### `"terminal.integrated.defaultProfile.linux": "pwsh"` - Sets the default CLI to PowerShell
+#### `terminal.integrated.defaultProfile.linux: pwsh` - Sets the default CLI to PowerShell
 
 ### .NET CLI overview
 
