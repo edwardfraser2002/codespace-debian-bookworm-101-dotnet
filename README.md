@@ -1,8 +1,10 @@
-# codspace-debian-bookworm-10-dotnet
+# Codespace setup for developing dotnet core apps
 
-Author: Ed Fraser - A basic codspace based on debian for developing C# dotnet projects. PowerShell and other essential extentions have also been included
+### (codspace-debian-bookworm-10-dotnet)
 
-Please find below a link to the image repository description 
+#### Author: Ed Fraser - A basic codspace based on debian for developing C# dotnet projects. PowerShell and other essential extentions have also been included
+
+This Codespace configurations is based on the following repository description 
 
 https://hub.docker.com/_/microsoft-dotnet-aspnet/
 
@@ -10,23 +12,33 @@ Please find below the link to the original dockerfile configuration file
 
 https://github.com/dotnet/dotnet-docker/blob/0f9bcba898466d5c00ac0fa57fdc2d40a9f29491/src/sdk/8.0/bookworm-slim/amd64/Dockerfile
 
+## The base image includes:
 
+#### NET CLI <br>
+#### .NET runtime <br>
+### ASP.NET Core <br>
 
-Use ` cat /etc/os-release ` to see the version of Debian running
+## Apps installed by the Dockerfile by default:
 
-Use ` git --version ` to see the version of git installed
+#### curl <br>
+#### git <br>
+#### wget <br>
+#### Powershell <br>
 
-Use ` nano --version ` to see the version of nano installed
+## Apps I've added to the Dockerfile to install:
 
-These two extentions have also been added
+#### nano <br>
+#### vim <br>
 
-This codespace has been built from a Microsoft image that has dotnet & powershell pre installed
+## Command suggestions to check versions of apps installed
 
+Use ` cat /etc/os-release ` to see the version of Debian running <br>
 
+Use ` git --version ` to see the version of git installed <br>
 
+Use ` nano --version ` to see the version of nano installed <br>
 
-'ms-dotnettools.csdevkit'
+## These two extentions have also been added <br>
 
-
-
-"ms-vscode.PowerShell"
+#### 'ms-dotnettools.csdevkit' <br>
+#### 'ms-vscode.PowerShell' <br>
