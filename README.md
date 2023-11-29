@@ -18,11 +18,11 @@ Please find below the link to the original dockerfile configuration file
 
 ### This base image includes
 
-#### NET CLI
+##### NET CLI
 
-#### .NET runtime
+##### .NET runtime
 
-#### ASP.NET Core 
+##### ASP.NET Core 
 
 ### Apps installed by the Dockerfile by default include
 
@@ -61,8 +61,9 @@ Use ` nano --version ` to see the version of nano installed
 ### Settings added to auto install in vscode include: 
 
 #### `terminal.integrated.defaultProfile.linux: pwsh` - Sets the default CLI to PowerShell
+<br>
 
-### .NET CLI overview
+## .NET CLI overview
 
 The .NET CLI provide a set of commands for dotnet including 'dotnet build' for more informaitons see
 
