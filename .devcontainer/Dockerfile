@@ -1,19 +1,7 @@
 ARG REPO=docker pull mcr.microsoft.com/playwright/dotnet
 FROM $REPO:v1.40.0-focal
 
-ENV \
-    # Do not generate certificate
-    DOTNET_GENERATE_ASPNET_CERTIFICATE=false \
-    # Do not show first run text
-    DOTNET_NOLOGO=true \
-    # SDK version
-    DOTNET_SDK_VERSION=6.0 \
-    # Enable correct mode for dotnet watch (only mode supported in a container)
-    DOTNET_USE_POLLING_FILE_WATCHER=true \
-    # Skip extraction of XML docs - generally not useful within an image/container - helps performance
-    NUGET_XMLDOC_MODE=skip \
-    # PowerShell telemetry for docker image usage
-    POWERSHELL_DISTRIBUTION_CHANNEL=PSDocker-DotnetSDK-Debian-12
+
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
