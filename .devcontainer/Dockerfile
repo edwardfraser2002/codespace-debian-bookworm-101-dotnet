@@ -1,5 +1,5 @@
-ARG REPO=docker pull mcr.microsoft.com/playwright/dotnet:
-FROM $REPO:1.40.0-focal
+ARG REPO=docker pull mcr.microsoft.com/playwright/dotnet
+FROM $REPO:v1.40.0-focal
 
 ENV \
     # Do not generate certificate
