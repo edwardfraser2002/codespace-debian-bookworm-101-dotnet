@@ -1,5 +1,5 @@
-ARG REPO=mcr.microsoft.com/dotnet/aspnet
-FROM $REPO:8.0.0-bookworm-slim-amd64
+ARG REPO=docker pull mcr.microsoft.com/playwright/dotnet:
+FROM $REPO:v1.40.0-focal
 
 ENV \
     # Do not generate certificate
