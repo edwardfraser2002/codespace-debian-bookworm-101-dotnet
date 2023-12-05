@@ -1,3 +1,1 @@
-New-Item -Path ./hellowld.txt -Value "Hello World!  (This files is an example of how 'post create' processes can be instanciated. In this example this file was created by the startup.ps1 file (a PowerShell script) which is located in the .devcontainer directory. This PowerShell scripted was in turn executed by the 'devconatainer.json' files 'postCreateCommand' property.)" -ItemType File -Force
-
-
+New-Item -Path ./HellWorld.txt -Value "Hello World!  (This files is an example of how 'post create' processes can be instanciated. In this example this file was created by the startup.ps1 file (a PowerShell script) which is located in the .devcontainer directory. This PowerShell scripted was in turn executed by the 'devconatainer.json' files 'postCreateCommand' property.)" -ItemType File -Force
