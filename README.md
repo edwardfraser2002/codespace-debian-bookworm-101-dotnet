@@ -4,9 +4,28 @@
 
 ### Aproxomate build time: 65 secs
 
-### Author: Ed Fraser - A basic codspace based on debian for developing C# dotnet projects. PowerShell and other essential extentions have also been included
+### Author: Ed Fraser - Ed Minding My Own Business
 
-### Codespace base image info
+### Repo image info
+
+#### The objective of this Repo
+
+This repo has been designed for Codespace generation for dotet development. 
+
+It is based on a light version of Linux Debian. PowerShell and other essential extentions have also been included.
+
+#### Creating a Codespace on this repo - HelloWorld.txt
+
+When a new Codespace is build on this repo a HelloWorld.txt is created in the working directory. This file is an example of how the Post Create Command 
+property of the devcontainer.json file can be used to execute a PowerShell script at Codespace Container build time.
+
+In this example the HelloWorld.txt file was created by the startup.ps1 file (a PowerShell script) which is located in the .devcontainer directory.
+PowerShell scripts have an almost limitless number of applications. In Dotnet, for example, they can be use to create, build and run C# porgrams. 
+
+This PowerShell scripted was in turn executed by the devcontainer.json files 'postCreateCommand' property. To stop this process, delete the startup.ps1 
+file or, better yet, remove the line starting `,'postCreateCommand':...` from the devcontainer.json file ensuring to also remove the preceeding commer.
+
+## Specs
 
 This Codespace configurations is based on the following repository description
 
