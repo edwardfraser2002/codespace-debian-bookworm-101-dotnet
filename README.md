@@ -1,4 +1,9 @@
 # Codespace setup for developing dotnet core apps
+## Intro
+
+The perpose of this repo is to make it easy to instanciate your own Codespace provisioned with the basic tools to build and delploy a basic dotnet applications.
+
+A PowerShell script is used to create a "Hello World" txt file.
 
 ## (codspace-debian-bookworm-10-dotnet)
 
