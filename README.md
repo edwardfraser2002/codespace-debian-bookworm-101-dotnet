@@ -89,6 +89,8 @@ Use ` nano --version ` to see the version of nano installed
 
 ## .NET CLI overview
 
+https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new#arguments
+
 The .NET CLI provide a set of commands for dotnet including 'dotnet build' for more informaitons see
 
 https://learn.microsoft.com/en-us/dotnet/core/tools/
