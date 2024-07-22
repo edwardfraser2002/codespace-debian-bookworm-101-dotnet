@@ -5,15 +5,16 @@ The purpose of this repo is to make it easy to instanciate your own Codespace pr
 
 A PowerShell script is used to create a "Hello World" txt file.
 
-## (codspace-debian-bookworm-101-dotnet)
+## ()
 
 ### Aproxomate build time: 65 secs
 
 ### Author: Ed Fraser - Ed Minding My Own Business
+codspace-debian-bookworm-101-dotnet
 
 ### Repo image info
 
-#### The objective of this Repo
+#### The Aim of this Repo
 
 This repo has been designed for Codespace generation for dotet development. 
 
