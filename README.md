@@ -5,7 +5,7 @@ The perpose of this repo is to make it easy to instanciate your own Codespace pr
 
 A PowerShell script is used to create a "Hello World" txt file.
 
-## (codspace-debian-bookworm-10-dotnet)
+## (codspace-debian-bookworm-101-dotnet)
 
 ### Aproxomate build time: 65 secs
 
